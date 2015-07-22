@@ -30,6 +30,7 @@ box-shadow: 0px -5px 100px 50px #FCAD36;
 
 #nav {
 width:95%;
+transition: 4s ease-in-out;
 }
 /*Custom Background Image on Content
 --------------------------------------------------------------------------------
@@ -49,16 +50,6 @@ Blog Image Code*/
 	margin-top:20px;
 }
 
-.landing-page #custombannercover {
-	background: rgba(106, 232, 164, .80);
-}
-/* Blog Calendar Icon*/
-
-.blog-date::before {
-  content: url(Icons/calendar18px.png);
-  float: left;
-  padding-right: 7px;
-}
 /*Custom Forum Image Code*/
 #custom-wrap-forum {
 	padding-bottom:0px;
